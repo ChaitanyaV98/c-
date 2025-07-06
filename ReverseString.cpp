@@ -8,5 +8,11 @@ int main(){
    // cin>>str this takes only single character, instead do the below way
    getline(cin, str);
    cout<< "string entered is "<< str<<endl;
+   string rev;
+   for(int i=str.length()-1; i>=0;i--){
+    rev= rev+str[i];
+
+   }
+   cout << "reversed string is "<<rev<<endl;
    return 0;
 }
