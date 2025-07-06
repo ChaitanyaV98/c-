@@ -12,6 +12,12 @@ int main(){
    for(int i=str.length()-1; i>=0;i--){
     rev= rev+str[i];
    }
-   cout << "reversed string is "<<rev<<endl;
+cout<<"Reversed string is "<<rev<< endl;
+   if (str == rev) {
+    cout << "The given string is a palindrome" << endl;
+} else {
+    cout << "Not a palindrome" << endl;
+}
+//    cout << "reversed string is "<<rev<<endl;
    return 0;
 }
