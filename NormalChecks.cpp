@@ -20,14 +20,23 @@ cout<<"Enter char: \n";
 
 cin>>ch;
 
-if(ch >= 'a' && ch <= 'z'){
-    cout<<"lower case\n";
+// if(ch >= 'a' && ch <= 'z'){
+//     cout<<"lower case\n";
+// }
+// else if(ch >='A' && ch<='Z'){
+//     cout<<"UPPER case\n";
+// }
+
+if(ch >= 65 && ch <= 90){// here when u enter a ch implicit type conversion happens
+    cout<<"upper case\n";
 }
-else if(ch >='A' && ch<='Z'){
-    cout<<"UPPER case\n";
-}
+
 else {
-    cout << "Not an alphabet\n";
+    c
+    out << "Lower case\n";
   }
+
+  int n= 10;
+  cout<<n>=0?"positive":"negative"<<endl;
     return 0;
 }
