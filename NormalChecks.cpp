@@ -35,8 +35,16 @@ else {
     c
     out << "Lower case\n";
   }
-
+//ternary operator
   int n= 10;
-  cout<<n>=0?"positive":"negative"<<endl;
+  cout<< n >= 0 ?"positive":"negative"<<endl;
+
+  // while loop
+  int count= 0;
+  while(count<=5){
+    cout<<count<<" ";
+    count++;
+  }
+  cout<<endl;
     return 0;
 }
