@@ -26,7 +26,8 @@ if(ch >= 'a' && ch <= 'z'){
 else if(ch >='A' && ch<='Z'){
     cout<<"UPPER case\n";
 }
-
-
+else {
+    cout << "Not an alphabet\n";
+  }
     return 0;
 }
