@@ -8,9 +8,24 @@ int main(){
 
     //pre increment : first updates happen and then assigns
     int c = 2;
-    int d = --c; // c=c-1 and then d=c
+    int d = ++c; // c=c+1 and then d=c
     cout<<"Values of c " << c << " Value of d "<< d << endl;
 
+//similarly we have predecrement and post decrement
+
+
+//check if the ch is upper case or lower case
+char ch;
+cout<<"Enter char: \n";
+
+cin>>ch;
+
+if(ch >= 'a' && ch <= 'z'){
+    cout<<"lower case\n";
+}
+else if(ch >='A' && ch<='Z'){
+    cout<<"UPPER case\n";
+}
 
 
     return 0;
