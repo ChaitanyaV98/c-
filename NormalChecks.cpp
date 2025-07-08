@@ -32,12 +32,11 @@ if(ch >= 65 && ch <= 90){// here when u enter a ch implicit type conversion happ
 }
 
 else {
-    c
-    out << "Lower case\n";
+    cout << "Lower case\n";
   }
 //ternary operator
   int n= 10;
-  cout<< n >= 0 ?"positive":"negative"<<endl;
+  cout<< (n >= 0?"positive":"negative")<<endl;
 
   // while loop
   int count= 0;
