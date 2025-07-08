@@ -40,10 +40,16 @@ else {
 
   // while loop
   int count= 0;
-  while(count<=5){
+  while(count<=n){
     cout<<count<<" ";
     count++;
   }
   cout<<endl;
+
+  for(int i=0; i<=n;i++){
+    cout<<i<<" ";
+  }
+  cout<<endl;
+
     return 0;
 }
