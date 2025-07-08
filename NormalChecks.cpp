@@ -85,9 +85,15 @@ cout<<endl;
 
 
 int x=10;
+int y=5;
 //printing 10 stars in single line
-for(int i=1; i<=x; i++){
-    cout<<"*";
+for(int i=1; i<=y; i++){ //decides how many lines
+    for(int i=1;i<=x;i++){// no.of starts in each row
+        cout<<"*";
+    }
+
+    cout<<endl;
+    
 }
 cout<<endl;
 
