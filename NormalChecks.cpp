@@ -35,7 +35,7 @@ else {
     cout << "Lower case\n";
   }
 //ternary operator
-  int n= 10;
+  int n= 9;
   cout<< (n >= 0?"positive":"negative")<<endl;
 
   // while loop
@@ -66,8 +66,15 @@ for(int i=0;i<n;i++){
     }
 }
 
-cout<<oddSum<<endl;
+cout<< oddSum<<endl;
+bool isPrime=true;
+for(int i=2;i<=n-1;i++){
+    if(n%i==0){
+        isPrime=false;
+    }
+}
 
+cout<<(isPrime?"prime number": "non prime")<<endl;
 
 int j=1;
 do{
@@ -78,3 +85,5 @@ cout<<endl;
 
     return 0;
 }
+
+
