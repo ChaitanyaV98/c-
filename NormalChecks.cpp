@@ -45,11 +45,20 @@ else {
     count++;
   }
   cout<<endl;
-
+//printing i
   for(int i=0; i<=n;i++){
     cout<<i<<" ";
   }
   cout<<endl;
+
+
+  //sum of n numbers
+  int sum=0;
+  for(int i=0;i<=n;i++){
+sum= sum+i;
+  }
+
+  cout<<sum<<endl;
 
     return 0;
 }
