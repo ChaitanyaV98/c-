@@ -59,6 +59,14 @@ sum+=i;
   }
 
   cout<<sum<<endl;
+int oddSum=0;
+for(int i=0;i<n;i++){
+    if(i%2!=0){
+        oddSum+=i;
+    }
+}
+
+cout<<oddSum<<endl;
 
     return 0;
 }
