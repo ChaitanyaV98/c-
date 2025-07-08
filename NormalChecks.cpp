@@ -68,5 +68,13 @@ for(int i=0;i<n;i++){
 
 cout<<oddSum<<endl;
 
+
+int j=1;
+do{
+    cout<<j<<" ";
+    j++;
+}while(j<=n);
+cout<<endl;
+
     return 0;
 }
